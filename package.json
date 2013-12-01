@@ -1,9 +1,12 @@
 {
   "name": "nam",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git@github.com:bmeck/nam"
+  },
+  "bin": { 
+    "nam": "./bin/nam"
   },
   "main": "lib/nam.js",
   "license": "MIT",
